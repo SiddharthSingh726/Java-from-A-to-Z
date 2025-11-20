@@ -13,7 +13,7 @@ public class Backslash_Code {
         // 2 -----> \t ===> Horizontal tab space.
         System.out.println(a+"\t"+b); // It created a one tab space by using \t.
 
-        System.out.println(":"+3);
+        System.out.println(":"+3); // Using + to concatenate.
 
         System.out.println("Hello \\ Hi \" "+b); // Here \ is helping to print the signs.
 
