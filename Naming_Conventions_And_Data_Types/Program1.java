@@ -9,6 +9,6 @@ public class Program1 {
         System.out.printf("\nIn Decimal = %d", num);
         System.out.printf("\nIn Octal = %o", num);
         System.out.printf("\nIn Hexadecimal = %x", num);
-        System.out.printf("\nIn Binary = %s", Integer.toBinaryString(num)); //This converts an integer number into its binary representation as a string.
+        System.out.printf("\nIn Binary = %s", Integer.toBinaryString(num)); //This converts integer number into binary as a string.
     }
 }
