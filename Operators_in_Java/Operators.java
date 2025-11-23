@@ -112,3 +112,14 @@
  * == equal to operator
  * ! not equal to operator
  */
+
+//-------------------------------------------------------------------------------------------------------
+
+/* Logical Operator
+ * Logical operators are used to construct compound conditions. A compound condition is a combination of several simple conditions.
+ * Logical operators are of three types :-
+ *
+ * a. && and operator
+ * b. || or operator
+ * c. ! not operator
+ */
