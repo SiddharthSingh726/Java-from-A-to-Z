@@ -42,3 +42,20 @@
 
 //-------------------------------------------------------------------------------------------------------
 
+/* while Loop
+ * The functional of this loop is also similar to do..while loop. This loop repeats a group of statements as long as a condition
+ * is true. Once the condition is false, the loop is terminated.
+ * while(condition){
+ *                   statements;
+ *                 }
+ */
+
+//-------------------------------------------------------------------------------------------------------
+
+/* for loop
+ * The for loop is also same as do..while or while loop, but it is more compact syntactically. The for loop executes a group
+ * of statements as long as condition is true.
+ * for(initialization ; condition ; preceding operator){
+ *                statements;
+ *             }
+ */
