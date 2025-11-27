@@ -59,3 +59,54 @@
  *                statements;
  *             }
  */
+
+//-------------------------------------------------------------------------------------------------------
+
+/* Nested for Loop
+ * We can write a for loop within another for loop. Such loops are called nested loops.
+ * for(int i = 1; i<=3; i++){
+ *          statements1;  //these are executed 3 times
+ *        for(int j; j<=4; j++){
+ *           statements2;  //these are executed 12 times
+ *       }
+ *   }
+ */
+
+//-------------------------------------------------------------------------------------------------------
+
+/* for-each Loop
+ * This loop is specifically designed to handle the elements of a collection.Collection represents a group of elements.
+ * For example, we can take an array as a collection or any class in java.util package can be considered as a collection.
+ * The reason is that an array stores a group of elements like integer values or strings. Similarly, java.util package
+ * classes are developed to handle a group of objects.
+ * for(var : collection){
+ *         statements;
+ *    }
+ */
+
+//-------------------------------------------------------------------------------------------------------
+
+/* switch Statement
+ * When there are several options and we have to choose only one option from the available ones, we can use switch
+ * statement. Depending on the selected option, a particular task can be performed.A task represents one more statements.
+ * switch(variable)
+ *              {
+ *                case value1 : statements1;
+ *                case value2 : statements2;
+ *                case value3 : statements3;
+ *                default     : default_statements;
+ *     }
+ * We cannot use all the data types along with the switch statement. We can use char,int,byte,short types only.
+ * In the recent version of Java, it is permitted to use string data type inside a switch statement to decide the
+ * course of action inside the switch block.
+ */
+
+//-------------------------------------------------------------------------------------------------------
+
+/* break Statement
+ * The break statement can be used in 3 ways:
+ * a. break is used inside a loop to come out of it.
+ * b. break is used inside the switch block to come out of the switch block.
+ * c. break can be used in nested blocks to go to the end of a block. Nested blocks represent a block written within
+ * another block.
+ */
