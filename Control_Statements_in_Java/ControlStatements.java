@@ -110,3 +110,23 @@
  * c. break can be used in nested blocks to go to the end of a block. Nested blocks represent a block written within
  * another block.
  */
+
+//-------------------------------------------------------------------------------------------------------
+
+/* continue Statement
+ * continue is used inside a loop to repeat the next iteration of the loop.When continue is executed, subsequent
+ * statements in the loop are not executed and control of execution goes back to the next repetition of the loop.
+ */
+
+//-------------------------------------------------------------------------------------------------------
+
+/* return Statement
+ * return statement is used in a method to come out of it to the calling method. For example, we are calling a method by the name
+ * myMethod() from the main() method.If return is used inside myMethod(),then the flow of execution comes out of it and goes back
+ * to main().While going back from myMethod(), we can also return some value to main() method.For this purpose,return should be used
+ * as follows:
+ * a. return 1; //return 1 to calling  method
+ * b. return x; //return x value
+ * c. return (x+y);  //calculate x+y and return that value
+ * d. return -5;  //return -5
+ */
