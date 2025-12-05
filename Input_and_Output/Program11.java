@@ -7,5 +7,5 @@ public class Program11 {
         int n = 65;
         float f = 15.1234f;
         System.out.printf(" string = %s%n int = %d%n float = %f ",s1,n,f);
-    }
+    } 
 }
