@@ -5,16 +5,19 @@ abstract class Payment{
     abstract void pay();
 }
 class UPI extends Payment {
+    @Override
     void pay() {
         System.out.println("Paying through UPI...");
     }
 }
 class Card extends Payment {
+    @Override
     void pay() {
         System.out.println("Paying through Card...");
     }
 }
 class Cash extends Payment {
+    @Override
     void pay() {
         System.out.println("Paying through Cash...");
     }
