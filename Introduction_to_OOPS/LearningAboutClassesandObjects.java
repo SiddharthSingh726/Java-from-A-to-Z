@@ -24,7 +24,7 @@ public class LearningAboutClassesandObjects {
         Raju.food = "Mango";
         Raju.talk();
         Raju.eat();
-        Sita.name = "Sita";   
+        Sita.name = "Sita";
         Sita.age = 21;
         Sita.Gender = 'F';
         Sita.food = "Apple";
