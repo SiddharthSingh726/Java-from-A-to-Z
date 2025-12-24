@@ -49,14 +49,25 @@ class Person1{
 public class Encapsulation {
     public static void main(String [] args){
         Person1 Raju = new Person1();
+        Person1 Sita = new Person1();
         Raju.setName("Raju");
-        Raju.setAge(-5);
-        Raju.setGender('G');
+        Raju.setAge(21);
+        Raju.setGender('M');
         Raju.setFood("Banana");
         System.out.println(Raju.getFood());
         System.out.println(Raju.getAge());
         System.out.println(Raju.getGender());
+        System.out.println("-----------------------------------------------");
+        Sita.setName("Sita");
+        Sita.setAge(19);
+        Sita.setGender('F');
+        Sita.setFood("Apple");
+        System.out.println(Sita.getFood());
+        System.out.println(Sita.getAge());
+        System.out.println(Sita.getGender());
         Raju.talk();
         Raju.eat();
+        Sita.talk();
+        Sita.eat();
     }
 }
