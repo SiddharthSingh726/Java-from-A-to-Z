@@ -11,7 +11,7 @@ abstract class Animal {
 }
 public class Abstraction {
     public static void main(String [] args){
-        Animal a = new Dog();
+        Animal a = new Dog();  // We can not create the object of abstract class.
         a.sound();
     }
 }
