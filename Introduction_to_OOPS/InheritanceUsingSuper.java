@@ -13,7 +13,7 @@ class Animal3{
 }
 class Cat extends Animal3{
     Cat(){
-        super("Ravi");
+        super("Ravi"); //When we have a parameterized constructor than we have to declared it in super.
     }  // we use super keyword to call the parent constructor, method and variables.
     String color = "White";
 

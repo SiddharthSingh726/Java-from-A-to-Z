@@ -10,7 +10,8 @@ class Animal4{
 class Parrot extends Animal4{
     @Override
     void talk() {
-            System.out.println("Parrot can Speak");
+        super.talk();
+        System.out.println("Parrot can Speak");
     }
 }
 public class InheritanceMethodOverriding {
