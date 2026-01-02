@@ -2,7 +2,7 @@
 package Introduction_to_OOPS;
 
 interface Payment1{
-    void pay();
+    void pay();  // In Interface there will only be a abstract method with no body.
 }
 class UPI1 implements Payment1{
     public void pay(){
