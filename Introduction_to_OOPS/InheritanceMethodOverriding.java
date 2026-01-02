@@ -4,7 +4,7 @@ package Introduction_to_OOPS;
 class Animal4{
     String name;
     void talk(){
-        System.out.println("I am a talk");
+        System.out.println("I am a talking");
     }
 }
 class Parrot extends Animal4{
