@@ -4,6 +4,7 @@ class Person{
     //properties - instance variable
     String name;
     int age;
+    // Constructor
 Person(String name,int age){
     this.name = name;
     this.age = age;
