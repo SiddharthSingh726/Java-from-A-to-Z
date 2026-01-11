@@ -6,14 +6,13 @@ class Person3{
     int age;
 
     void talk(){
-        System.out.println(name + " is talking and his age is "+age);
+        System.out.println("Hello my name is "+name);
+        System.out.println("Hello my age is "+age);
     }
 }
 public class Program_2 {
     public static void main(String [] args){
-        Person3 p1 = new Person3();
-        p1.name = "Raju";
-        p1.age = 20;
-        p1.talk();
+        Person3 p3 = new Person3();
+        p3.talk();
     }
 }

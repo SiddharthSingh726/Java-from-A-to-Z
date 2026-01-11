@@ -9,7 +9,7 @@ class Person2{
 }
 public class Program_1 {
     public static void main(String [] args){
-        Person2 p1 = new Person2();
-        System.out.println("Hash Code = " + p1.hashCode());
+        Person2 p2 = new Person2();
+        System.out.println("Hash Code = " + p2.hashCode());
     }
 }
