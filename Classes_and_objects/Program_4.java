@@ -17,3 +17,13 @@ public class Program_4 {
         p7_7.talk();
     }
 }
+/* 1.Top-level classes cannot be private or protected; they can be only public or default.
+   2.Inner classes can be private, protected, default, or public
+   3.Methods can be private, protected, default, or public.
+   4.Instance variables can be private, protected, default, or public.
+   5.Access modifiers define the visibility and accessibility of a class and its members such as variables, methods, and constructors.
+   6.private members are accessible only within the same class.
+   7.protected members are accessible within the same package and in subclasses outside the package through inheritance.
+   8.Default access allows access only within the same package.
+   9.public members can be accessed from anywhere.
+ */
