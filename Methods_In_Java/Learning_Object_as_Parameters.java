@@ -12,15 +12,15 @@ class Employee{
         salary = sc.nextDouble();
     }
 
-        Employee calculateTax(Employee obj) {
-            if (obj.salary <= 50000) {
-                obj.tax = 0;
-            } else if (obj.salary <= 100000) {
-                obj.tax = obj.salary * 0.10;
+        Employee calculateTax(Employee e1) {
+            if (e1.salary <= 50000) {
+                e1.tax = 0;
+            } else if (e1.salary <= 100000) {
+                e1.tax = e1.salary * 0.10;
             } else {
-                obj.tax = obj.salary * 0.20;
+                e1.tax = e1.salary * 0.20;
             }
-            return obj;
+            return e1;
     }
 }
 public class Learning_Object_as_Parameters {

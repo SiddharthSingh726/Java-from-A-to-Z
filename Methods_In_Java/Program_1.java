@@ -1,3 +1,4 @@
+//Write a program for a method without parameters and without a return type.
 package Methods_In_Java;
 
 class Summing{
