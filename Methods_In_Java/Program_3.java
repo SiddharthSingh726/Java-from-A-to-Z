@@ -1,3 +1,4 @@
+// Write a program for a method with two parameter and return type.
 package Methods_In_Java;
 
 import java.util.Scanner;
