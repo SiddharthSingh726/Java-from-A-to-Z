@@ -11,8 +11,8 @@ class Factorial{
         n = input.nextInt();
     }
 
-    long factorial(int n){
-        long result = 1;
+    int factorial(int n){
+        int result = 1;
         for (int i = 1; i <= n; i++) {
             result *= i; // n! = 1 * 2 * ... * n
         }
