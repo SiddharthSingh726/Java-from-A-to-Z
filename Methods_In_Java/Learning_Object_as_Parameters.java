@@ -33,3 +33,4 @@ public class Learning_Object_as_Parameters {
         System.out.println("The salary is " + e1.salary);
     }
 }
+// A method can accept an object as a parameter, modify it, and return the same or another object.
