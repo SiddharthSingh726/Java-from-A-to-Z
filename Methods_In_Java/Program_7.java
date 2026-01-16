@@ -1,3 +1,4 @@
+//Lut us make a program by taking an instance variable x in the Test class
 package Methods_In_Java;
 
 import java.util.Scanner;
