@@ -2,7 +2,7 @@ package Arrays;
 
 import java.util.Scanner;
 
-public class Program1 {
+public class Side_Program1 {
     public static void main(String [] args){
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the Array limit :- ");
