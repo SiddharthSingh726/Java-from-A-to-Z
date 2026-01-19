@@ -75,7 +75,7 @@ class MatrixSum {
         sc.close();
     }
 }
-
+// So this is how we pass array to the methods.
 
 /* Just like objects are passed to methods it is also possible to pass arrays to methods and returns arrays from methods. In this
    case, an array name should be understood as an object reference. For example,
