@@ -3,4 +3,6 @@
 
    Inheritance is a concept where new classes can be produced from the existing classes. The newly created class acquires all the
    features of the existing class from where it is derived.
+
+   A child class object can access parent class non-private members.
  */
