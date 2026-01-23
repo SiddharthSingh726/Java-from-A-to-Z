@@ -9,4 +9,16 @@
    Child classes can access parent class public and protected members, but not private members.
 
    Parent constructor is ALWAYS called before child constructor.
+
+   Method Overriding
+   a. If a method have same name,same parameters and same return type.
+   b. Method call depends on the object type, not the reference type.
+
+   RULES of Method Overriding
+   1.Method name must be same
+   2.Parameters must be same
+   3.Return type must be same or covariant
+   4.Access level cannot be reduced
+   5.Happens only in inheritance
+   6.Only instance methods can be overridden
  */
