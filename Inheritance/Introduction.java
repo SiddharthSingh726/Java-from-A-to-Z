@@ -10,7 +10,7 @@
 
    Parent constructor is ALWAYS called before child constructor.
 
-   Method Overriding
+   Method Overriding.
    a. If a method have same name,same parameters and same return type.
    b. Method call depends on the object type, not the reference type.
 
@@ -21,4 +21,14 @@
    4.Access level cannot be reduced
    5.Happens only in inheritance
    6.Only instance methods can be overridden
+   7.Overriding works only for non-static, non-final, non-private methods.
+
+   Super Keyword.
+   1.Super refers to the parent class object part inside the child object.
+   2.Use super to call the parent class version of an overridden method.
+
+   super() → constructor only
+   super.method() → method access
+
+
  */
