@@ -30,5 +30,29 @@
    super() → constructor only
    super.method() → method access
 
+   super() can be used ONLY inside a constructor, and
+   it must be the FIRST statement of that constructor.
 
+   Access level cannot be reduced
+   private, final, static methods cannot be overridden
+   Return type must be same or covariant
+   Only instance methods are overridden
+   Method call depends on object type
+
+   In method overriding, access level can be increased but never decreased.
+   private < default < protected < public
+
+   Final Keyword.
+   1.A final class cannot be extended.
+   2.Final method cannot be overridden
+   3.A final variable cannot be reassigned.
+   4.Final method can be inherited but not override.
+   5.Final static methods cannot be overridden or hidden.
+
+   FINAL GOLDEN RULES (LOCK THIS)
+   1.final class → no inheritance
+   2.final method → no overriding
+   3.final variable → no reassignment
+   4.Final methods are inherited but frozen
+   5.final + static → no hiding
  */
