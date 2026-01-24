@@ -55,4 +55,24 @@
    3.final variable → no reassignment
    4.Final methods are inherited but frozen
    5.final + static → no hiding
+
+   UPPERCASTING
+   1.Reference type decides accessible methods
+   2.Upcasting allows access only to parent class methods.
+   3.Actual method execution depends on object type.
+
+   DOWNCASTING
+   1.Downcasting is safe ONLY if the object is actually of child type.
+   2.Safe downcasting using instanceof
+     if (a instanceof Dog) {
+     Dog d3 = (Dog) a;
+     d3.sleep();
+}
+
+    FINAL GOLDEN RULES (WRITE THIS)
+    1.Upcasting → automatic, safe
+    2.Downcasting → explicit, risky
+    3.Method access depends on reference type
+    4.Method execution depends on object type
+    5.Always use instanceof before downcasting
  */
